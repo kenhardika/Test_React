@@ -1,15 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
+import { Header } from './Header';
+import { Main } from './Main';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Deployment test react, I deploy it twice now check it out
-        </p>
-      </header>
+      <Header/>
+      <Main/>
     </div>
   );
 }

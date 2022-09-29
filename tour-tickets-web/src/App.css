@@ -7,32 +7,85 @@
   pointer-events: none;
 }
 
-@media (prefers-reduced-motion: no-preference) {
+/* @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
   }
-}
+} */
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  background-color: #ef522e;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: #47180e;
+  padding: 2vw 2.2vw;
 }
-
+.App-main{
+  min-height: 70vh;
+  display: flex;
+  background-color: azure;
+}
 .App-link {
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
+.logo-header{
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 40%;
+}
+
+.logo-header a{
+  padding-left: 1vw;
+}
+
+.navbar{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  font-size: 20px;
+  width: 60%;
+  justify-content: right;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+
+.nav{
+  display: flex;
+  padding: 15px 20px;
+  width: 80%;
+  transition: color 0.1s ease-in-out;
+}
+
+.nav:hover{
+  color: rgba(0, 0, 0, 0.5);
+  transition: color 0.1s ease-in-out;
+}
+
+.nav a {
+  margin: 10px;
+  transition: color 0.1s ease-in-out;
+}
+
+.nav a:hover{
+  color: #47180e;
+  transition: color 0.1s ease-in-out;
+}
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
