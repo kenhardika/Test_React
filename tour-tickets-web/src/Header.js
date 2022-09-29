@@ -4,7 +4,7 @@ export class Header extends React.Component{
         return (
             <header className="App-header">
                 <div className="logo-header">
-                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Panic At the Posko </a>
+                    <a href="https://www.google.com" target="_blank" rel="noopener noreferrer"> Panic! At the Posko </a>
                 </div>
                 <div className="navbar">
                     <div className="navbar nav">

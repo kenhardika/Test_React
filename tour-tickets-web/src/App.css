@@ -27,7 +27,7 @@
 .App-main{
   min-height: 70vh;
   display: flex;
-  background-color: azure;
+  background-color: #ebbb5c;
 }
 .App-link {
   color: #61dafb;
@@ -42,6 +42,7 @@
 
 .logo-header a{
   padding-left: 1vw;
+  font-weight: 600;
 }
 
 .navbar{
@@ -64,7 +65,7 @@
 
 .nav:hover{
   color: rgba(0, 0, 0, 0.5);
-  transition: color 0.1s ease-in-out;
+  transition: color 0.05s ease-in-out;
 }
 
 .nav a {
