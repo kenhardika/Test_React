@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Deployment test react
+          Deployment test react, I deploy it twice now check it out
         </p>
       </header>
     </div>
