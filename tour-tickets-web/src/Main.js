@@ -1,10 +1,13 @@
-import React from 'react';
-
-export class Main extends React.Component{
+/* eslint-disable no-useless-constructor */
+import React, {Component} from 'react';
+export class Main extends Component{
+    constructor(props) {
+        super(props);
+      }
     render(){
         return (
             <main className="App-main">
-                this is main layer
+                <h2> {this.props.text}</h2>
             </main>
         ) 
     }
