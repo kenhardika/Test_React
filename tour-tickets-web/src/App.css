@@ -82,6 +82,11 @@ a{
   text-decoration: none;
   color: inherit;
 }
+
+.buttonLayer button{
+  width: 200px;
+}
+
 /* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
