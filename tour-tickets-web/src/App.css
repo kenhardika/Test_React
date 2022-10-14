@@ -15,17 +15,17 @@
 
 .App-header {
   background-color: #ef522e;
-  min-height: 5vh;
+  height: 5vh;
   display: flex;
   flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: #47180e;
-  padding: 2vw 2.2vw;
+  padding: 2.5vh 2.2vw;
 }
 .App-main{
-  min-height: 70vh;
+  height: 87vh;
   display: flex;
   background-color: #ebbb5c;
 }
@@ -85,6 +85,10 @@ a{
 
 .buttonLayer button{
   width: 200px;
+}
+
+footer{
+  height: 3vh;
 }
 
 /* @keyframes App-logo-spin {
