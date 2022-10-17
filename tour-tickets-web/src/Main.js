@@ -1,6 +1,6 @@
 /* eslint-disable no-useless-constructor */
 import React, {Component} from 'react';
-import HooksTest from './HooksTest';
+import TourPanel from './TourPanel';
 export class Main extends Component{
     constructor(props) {
         super(props);
@@ -14,7 +14,7 @@ export class Main extends Component{
         // console.log(onButtonClicked);
         return (
             <main className="App-main">
-                <HooksTest />
+                <TourPanel></TourPanel>
             </main>
         ) 
     }
