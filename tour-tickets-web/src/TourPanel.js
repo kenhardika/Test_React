@@ -20,6 +20,8 @@ class TourPanel extends Component {
         });
     };
 
+    
+
     onSubmitTask = (e) => {
         e.preventDefault();
         this.setState({
@@ -30,6 +32,12 @@ class TourPanel extends Component {
                 },
         });
     };
+
+    onDeleteBtn = (e) =>{
+     this.setState({
+        cities: this.state.cities.filter((city)=> city.name !== e.target.parentElement.firstChild.textContent)
+     });
+    }
 
     render() {
         const {city, cities} = this.state;
@@ -45,7 +53,7 @@ class TourPanel extends Component {
                     id='cityInput'/>
                     <button type='submit'>Add City</button>
                 </form>
-                <CityList cities = {cities}/>
+                <CityList cities = {cities} del = { this.onDeleteBtn }></CityList> 
             </div>
         );
     }

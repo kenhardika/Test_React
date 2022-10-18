@@ -17,7 +17,7 @@ class App extends Component {
       <div className="App">
         <Header/>
         {/* instead of passing a string, we’re just passing a function below on onButtonClicked */}
-        <Main text = "this is from props" onButtonClicked = {this.onClickBtn}/> 
+        <Main/> 
         <Footer/>
       </div>
     );
